@@ -85,3 +85,9 @@ input[type=submit]:hover {
     color: #0339A6;
   }
   
+  #footer{
+    text-align: center;
+    padding-inline-end: 10px;
+    padding-bottom: 5px;
+    color: #fff;
+  }

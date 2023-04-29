@@ -86,29 +86,15 @@
         </div>
     </div>
 
-
-
     <script src="Registro.js"></script>
-
-    
 </body>
-<footer id="footer">
-    <p>Creado por SONIPROYECCION &copy;<?= date('Y') ?></p>
-    </footer> 
+
+    <footer id="footer">
+        <p>Creado por SONIPROYECCION &copy;<?=date('Y')?></p>
+    </footer>
 
 </html>
 
 <?php
 
-/*session_start();
-$usuario=$_POST["usuario"];
-$_SESSION['usuario']=$usuario;
-if(isset($_SESSION['usuario'])){
-    unset($_SESSION['usuario']);
-    echo "Validar que si existe, si existe la elimina";
-}else{
-    echo "como no existe, puede crear la nueva sesion";
-    echo $_SESSION['usuario'];
-} */
 ?>
-<!--<a href="formulario.php">formulario</a> 
