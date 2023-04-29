@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+div {
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    position: static;
+    text-align: center;
+    padding: 10px;
+    color: #0339a6;
+    display: block;
+    max-width: 1100px;
+
+}
+
+.Buscar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 800;
+    width   : 80%;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[name]{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+::placeholder {
+    color: #000000;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #0339A6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 5;
+    border-radius: 10px;
+    border: 1px solid #0339A6;
+    cursor: pointer;
+    /* box-shadow: 8px 8px 0px 2px #fdfdfd; */
+ } 
+
+input[type=submit]:hover {
+    background-color: #F29F05;
+    border: 1px solid #F29F05;
+  }
+  p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #0339A6;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight:bold;
+    color: #0339A6;
+  }
+  

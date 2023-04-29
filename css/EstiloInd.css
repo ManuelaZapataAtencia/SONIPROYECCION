@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-form {
+    width: 100%;
+    height: 255vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+    color: #fff;
+          
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.mensaje {
+    padding: 1rem;
+}
+
+.mensaje h1 {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+
+
+}
+
+.mensaje h2 {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+
+.mensaje button {
+    padding: 1rem;
+    font-size: 400;
+    background-color: #0339a6;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+    
+    
+}
+
+.mensaje button:hover {
+    background-color: #F29F05;
+    
+}
+
+.formulario {
+    margin: auto;
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: rgb(51, 51, 51, 0.602);
+    text-align: center;
+}
+
+.create-account {
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+}
+
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: 2rem 0;
+    font-size: .9rem;
+    color: white;
+    
+}
+
+.formulario input[type="submit"] {
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #0339a6;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #F29F05;
+}
+
+.formulario input[type="text"] {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.formulario input[type="int"] {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+div {
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    position: static;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    color: #0339a6;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-form {
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+    color: #fff;
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.mensaje {
+    padding: 1rem;
+}
+
+.mensaje h1 {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+
+
+}
+
+.mensaje h2 {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+
+.mensaje button {
+    padding: 1rem;
+    font-size: 400;
+    background-color: #0339a6;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.mensaje button:hover {
+    background-color: #F29F05;
+}
+
+.formulario {
+    margin: auto;
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: rgb(51, 51, 51, 0.602);
+    text-align: center;
+}
+
+.create-account {
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+}
+
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: 2rem 0;
+    font-size: .9rem;
+    color: white;
+}
+
+.formulario input[type="submit"] {
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #0339a6;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #F29F05;
+}
+
+.formulario input[type="text"] {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.formulario input[type="int"] {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+div {
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    position: static;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    color: #0339a6;
+
+}
+
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* NOTA: LA CLASE "ACTIVE" SE ACTIVA CON JS */
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}
