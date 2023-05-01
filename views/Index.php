@@ -1,32 +1,21 @@
+<?php
+require_once '../models/db.php';
+require_once '../controllers/usercontroller.php';
+require_once 'views/css/EstiloInd.css';
+?>
 <!Doctype html>
 <html leng="es">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="css/EstiloInd.css">
+    <link type="text/css" rel="stylesheet" href="views/css/EstiloInd.css">
+    <link type="text/css" rel="stylesheet" href="Registro.js">
+    <link type="text/css" rel="stylesheet" href="controllers/userController.php">
     <title>Registro - SONIPROYECCION</title>
-    <link href="registro_usuario.php" rel="stylesheet">
-    <link href="prueba.php" rel="stylesheet">
-    <link href="Buscar.html" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&family=Raleway:wght@700&family=Syne:wght@600&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            background-image: url("Img/Lld-proyector-destacada.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-            height: 180vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        
-    </style>
 
 </head>
 
@@ -41,9 +30,8 @@
                 <button class="sign-up-btn">Iniciar Sesión</button>
             </div>
         </div>
-        <form class="formulario" action="registro_usuario.php" method="POST">
-            <form class="formulario" action="Buscar_usuario.php" method="POST">
-                <form class="formulario" action="Editar_usuario.php" method="POST">
+        <form class="formulario" action="controllers/userController.php" method="POST">
+            <form class="formulario" action="models/Buscar_usuario.php" method="POST">
                     <h2 class="create-account">Crea una cuenta de usuario</h2>
                     <input type="text" name="nombre" placeholder="Ingrese su Nombre" required="true">
                     <input type="text" name="lastname" placeholder="Ingrese su Apellido" required="true">
@@ -63,12 +51,12 @@
 
                     <input type="submit" value="Registrarse">
                     </br>
-                </form>
+                
             </form>
         </form>
     </div>
     <div class="container-form sign-in">
-        <form class="formulario" action="prueba.php" method="POST">
+        <form class="formulario" action="controllers/userController.php" method="POST">
             <h2 class="create-account">Iniciar sesión</h2>
             <label name="email">Correo:</label>
             <input type="email" placeholder="Correo electrónico" name="email" id="email" required="true">

@@ -1,3 +1,8 @@
+<?php
+// require_once '../controllers/usercontroller.php';
+require_once '../views/Buscar_usuario.php';
+require_once 'layout/header.php';
+?>
 <!Doctype html>
 <html lang="es">
 
@@ -27,7 +32,7 @@
           <h1>¿Quieres buscar un usuario?</h1>
           <p>Para buscar un Usuario, ingresa su número de identificación.</p>
         </div>
-      <form class="Buscar" action="Buscar_usuario.php" method="POST">
+      <form class="Buscar" action="views/Buscar_usuario.php" method="POST">
         <input type="text" name="numero_identificacion" placeholder="Número de identificación"/>
         <input type="submit" value="BUSCAR" name="buscar"/>
       </form>

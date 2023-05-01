@@ -1,9 +1,14 @@
+<?php
+require_once '../controllers/usercontroller.php';
+require_once 'layout/header.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" href="Editar_usuario.php" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/Estilo.css" /> 
+    <link type="text/css" href="controllers/userController.php" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="views/css/Estilo.css" /> 
     <title>Editar Usuario</title>
     <style>
        body {
@@ -31,7 +36,7 @@
               <h1>¿Quieres Editar un usuario?</h1>
               <p>Para buscar al usuario que deseas editar, ingresa su número de identificación.</p>
             </div>
-            <form class="Buscar" action="Editar_usuario.php" method="POST">
+            <form class="Buscar" action="controllers/userController.php" method="POST">
                 <input type="text" name="numero_identificacion" placeholder="Número de identificación" required="true">
                 <input type="submit" value="BUSCAR" name="buscar">
             </form>

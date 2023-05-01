@@ -1,15 +1,9 @@
 <?php
-require_once 'db.php';
-$numero_identificacion = $_POST['numero_identificacion'];
+require_once '../controllers/usercontroller.php';
+require_once 'layout/header.php';
+?>
 
-$sql = "SELECT Cedula, Tipo_Documento, Nombre, Apellidos, Telefono, Direccion, Email, Pass FROM usuarios WHERE Cedula = '".$numero_identificacion."'";
-$result = Database::connect()->query($sql);
-
-
-if (mysqli_num_rows($result) > 0) {
-    while($fila = mysqli_fetch_array( $result ) ){?>
-
-        <!Doctype html>
+    <!Doctype html>
         <html leng="es">
         <head>
             <meta charset="utf-8">
@@ -17,7 +11,6 @@ if (mysqli_num_rows($result) > 0) {
             <link type="text/css" rel="stylesheet" href="css/Estilo.css" /> 
             <link type="text/css" rel="stylesheet" href="css/EstiloInd.css" /> 
             <title>Editar usuario - SONIPROYECCION</title>
-            <link href="Editar.php" rel="stylesheet">
             <style>
             body {
                 background-image: url("Img/Lld-proyector-destacada.jpg");
@@ -68,14 +61,5 @@ if (mysqli_num_rows($result) > 0) {
         </body>
 
         </html>
-<?php
 
-    }
-        
-    exit;
-} else {
-    echo "Usuario NO existe, por favor verifique los datos"; 
-    exit;
-}
 
-mysqli_close(Database::connect()); ?>

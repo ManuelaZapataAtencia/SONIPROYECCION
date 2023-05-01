@@ -91,3 +91,14 @@ input[type=submit]:hover {
     padding-bottom: 5px;
     color: #fff;
   }
+  body {
+    background-image: url("Img/Lld-proyector-destacada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 180vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
