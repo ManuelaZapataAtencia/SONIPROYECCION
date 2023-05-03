@@ -1,6 +1,6 @@
 <?php
 require_once '../controllers/usercontroller.php';
-require_once 'layout/header.php';
+
 ?>
 
 <html>

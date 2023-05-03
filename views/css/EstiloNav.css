@@ -45,6 +45,13 @@ html.body{
     /* text-shadow: 0.12em 0.1em #a87007be; 
      */
     }
+    h2{
+        font-family: 'Syne', sans-serif;
+        font-size: 45px;
+        color: #f29f05;
+        font-weight: 700;
+        align-items: center;
+    }
     
     .menu > li, .menu > a{
     display: inline-block;
@@ -131,15 +138,4 @@ html.body{
         padding-top: 10px;
         padding-bottom: 5px;
         color: #fff;
-    }
-    body {
-        background-image: url("Img/Lld-proyector-destacada.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        height: 180vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
