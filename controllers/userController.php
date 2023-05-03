@@ -126,8 +126,8 @@ class UserController{
 
     public function find(){
         $user = new userManage();
-        $user->setNumeroIdentificacion($_POST['$numero_identificacion']);
-        $user->setTipoDocumento($_POST['$tipo_documento']);
+        $user->setNumeroIdentificacion($_POST['numero_identificacion']);
+        $user->setTipoDocumento($_POST['tipo_documento']);
         $user->setNombre($_POST['nombre']);
         $user->setApellidos($_POST['lastname']);
         $user->setPhone($_POST['phone']);
