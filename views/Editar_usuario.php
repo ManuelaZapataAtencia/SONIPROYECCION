@@ -23,11 +23,7 @@ require_once 'layout/header.php';
                 align-items: center;
                 justify-content: center;
             } 
-            h2{
-                font-family: 'Montserrat', sans-serif;
-                color: white;
-                text-align: center;
-            }
+          
             </style>
         </head>
 

@@ -1,7 +1,7 @@
 <?php
 require_once '../models/db.php';
-require_once '../controllers/usercontroller.php';
-require_once 'views/css/EstiloInd.css';
+// require_once '../controllers/usercontroller.php';
+// require_once 'views/css/EstiloInd.css';
 ?>
 <!Doctype html>
 <html leng="es">

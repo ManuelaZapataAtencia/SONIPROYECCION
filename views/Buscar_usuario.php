@@ -5,78 +5,7 @@ require_once 'layout/header.php';
 
 <html>
 <head>
-    <style>
-        body {
-            background-image: url("Img/Lld-proyector-destacada.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-            height: 255vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        div {
-          margin: auto;
-          margin-right: 0;
-          margin-left: 0;
-          margin-top: 0;
-          position: static;
-          text-align: center;
-          padding: 10px;
-          color: #0339a6;
-          display: block;
-          max-width: 600px;
-      
-      }
-        .mensaje h2 {
-          font-family: 'Montserrat', sans-serif;
-          font-size: 45px;
-          font-weight:bold;
-          color:#f34949;
-        }
-
-        .container-form{
-          font-family: 'Raleway', sans-serif;
-          font-size: 25px;
-          text-align: left;
-          font-weight:bold; 
-          color: #000;
-          width: 700px;
-          height: 95vh;
-          margin: auto;
-          margin-right: 0;
-          margin-left: 0;
-          margin-top: 0;
-          padding: 10px;
-          background-color: #ffffffae;
-        }
-        
-        button{
-          text-align: left;
-          font-family: 'Raleway', sans-serif;
-          font-size: 25px;
-          font-weight:bold;
-          padding: 8px;
-          font-size: 400;
-          background-color:#f34949;
-          border-radius: 5px;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          font-size: .9rem;
-          margin-top: 0px;
-          transition: all .2s ease-in;
-          color: #fff;
-          
-        }
-        button:hover{
-          background-color: #fb6565d3;
-          color:#000;
-        }
-        
-    </style>
+  
 </head>
 
 <body>

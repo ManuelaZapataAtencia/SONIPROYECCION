@@ -1,5 +1,5 @@
 <?php
-// require_once '../controllers/usercontroller.php';
+require_once '../controllers/usercontroller.php';
 require_once '../views/Buscar_usuario.php';
 require_once 'layout/header.php';
 ?>
@@ -11,19 +11,6 @@ require_once 'layout/header.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="css/Estilo.css" /> 
     <title>Buscar Usuario</title>
-    <style>
-       body {
-        background-image: url("Img/Lld-proyector-destacada.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        height: 180vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      } 
-    </style>
   </head>
 
   <body>
