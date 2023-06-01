@@ -43,8 +43,6 @@
                     <p>También puedes registrarte.</p>
               </div> 
             </div>
-            <br>
-            <br>
             <footer class="footer">
              <p>Creado por SONIPROYECCION &copy;<?= date('Y') ?></p>
             </footer>
