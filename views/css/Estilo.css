@@ -102,3 +102,8 @@ input[type=submit]:hover {
     align-items: center;
     justify-content: center;
 }
+
+label {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}

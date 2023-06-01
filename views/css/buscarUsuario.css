@@ -27,7 +27,7 @@ div {
   font-family: 'Montserrat', sans-serif;
   font-size: 45px;
   font-weight:bold;
-  color:#f34949;
+  color:#0339a6;
 }
 
 .container-form{
@@ -53,7 +53,7 @@ button{
   font-weight:bold;
   padding: 8px;
   font-size: 400;
-  background-color:#f34949;
+  background-color:#0339a6;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -65,6 +65,6 @@ button{
   
 }
 button:hover{
-  background-color: #fb6565d3;
-  color:#000;
+  background-color: #0339a6;
+  color:#F29F05;
 }

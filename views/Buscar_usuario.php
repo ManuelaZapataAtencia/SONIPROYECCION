@@ -5,33 +5,35 @@ require_once '../controllers/usercontroller.php';
 
 <html>
 <head>
-  
+  <title>Buscar usuario</title>
+  <link type="text/css" rel="stylesheet" href="css/buscarUsuario.css">
+  <style>
+        body{
+            background-image: url("Img/Lld-proyector-destacada.jpg");
+        }
+    </style>
+
 </head>
 
 <body>
   <div class="container-form editar">
-  <a href="Buscar.html"><button>Regresar</button></a>  
+  <a href="Nav_Administrador.php"><button>Regresar</button></a>  
     <div class="mensaje"><h2>Datos del usuario: </h2></div>
-      <form class="Buscar" action="controllers/usercontroller.php" method="POST">
+      <form class="Buscar" action="../controllers/userController.php" method="POST">
         <?php
-         require_once 'controllers/usercontroller.php';
-          if (mysqli_num_rows($sqlFind) > 0) {
-            while($fila = mysqli_fetch_array($sqlFind) ){
-                echo "Tipo de documento: ",$fila['Tipo_Documento'], "<br>";
-                echo "Numero de identificación: ", $fila['Cedula'],"<br>";
-                echo "Nombre: ", $fila['Nombre'], "<br>";
-                echo "Apellidos: ", $fila['Apellidos'], "<br>";
-                echo "Telefono: ", $fila['Telefono'], "<br>";
-                echo "Direccion: ", $fila['Direccion'], "<br>";
-                echo "Email: ", $fila['Email'], "<br>";
-              }
+        session_start();
+
+                echo "Tipo de documento: ",$_SESSION["Tipo_Documento"], "<br>";
+                echo "Numero de identificación: ", $_SESSION["Cedula"],"<br>";
+                echo "Nombre: ", $_SESSION["nombre"] , "<br>";
+                echo "Apellidos: ", $_SESSION["Apellidos"] , "<br>";
+                echo "Telefono: ", $_SESSION["Telefono"] , "<br>";
+                echo "Direccion: ",  $_SESSION["Direccion"] , "<br>"; 
+                echo "Email: ", $_SESSION["Email"] , "<br>";  
+              
 
             exit;
-        } else {
-            echo "Usuario NO existe, por favor verifique los datos"; 
-            exit;
-        }
-        
+       
         ?>
       </form>
   </div> 

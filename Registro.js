@@ -10,6 +10,28 @@ document.addEventListener('click', e => {
     }
 });
 
+function mostrarContrasena(field = "password"){
+    var mostrar = document.getElementById(field);
+
+    if (mostrar.type == "password") {
+        mostrar.type = "text";
+    }else{
+        mostrar.type = "password";
+    }
+}
+
+function validarPassword(password){
+    const segura = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
+
+if (password.value.match(segura)) {
+    alert("La contraseña es segura")
+}else{
+    alert("La contraseña debe tener:  \nMinimo un carácter especial. \nMinimo una mayúscula. \nMinimo una minúscula. \nNumeros. ")  
+}
+   
+
+}
+
 
 
 

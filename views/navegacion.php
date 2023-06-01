@@ -1,9 +1,7 @@
 <?php
-require_once '../Buscar.php';
-require_once '../VistaEditar_usuario.php';
-require_once 'assents/css/EstiloNav.css';
 require_once '../controllers/usercontroller.php';
-require_once 'inactividad.php';
+
+
 
 ?>
 
@@ -12,8 +10,9 @@ require_once 'inactividad.php';
    <head>
     <meta charset="utf-8">
         <link type="text/css" rel="stylesheet" href="css/EstiloNav.css">
-        <link type="text/css" href="guardar.php" rel="stylesheet">
-            <title>Pagina principal</title>
+        <link type="text/css" href="../guardar.php" rel="stylesheet">
+        <link type="text/php" href="indexReg.php" rel="stylesheet">
+            <title>Pagina principal_Usuario</title>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&family=Raleway:wght@700&family=Syne:wght@600&display=swap" rel="stylesheet">
         <style>
             body{
@@ -33,16 +32,16 @@ require_once 'inactividad.php';
             <nav>
               <h1 class="logo">SONIPROYECCION</h1>
               <ul class="menu">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="Buscar.html">Buscar Usuario</a></li>
-                <li><a href="Editar_usuario.html">Editar Usuario</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="navegacion.php">Inicio</a></li>
+                <!-- <li><a href="Buscar.php">Buscar Usuario</a></li> -->
+                <!-- <li><a href="VistaEditar_usuario.php">Editar Usuario</a></li> -->
+                <!-- <li><a href="#Contacto">Contacto</a></li> -->
                 <li><a href="#Servicios">Servicios</a>
                   <ul class="submenu"> 
-                  <li><a href="#Alquiler_equipos_Audiovisuales">Alquiler de equipos Audiovisuales</a>
+                  <li><a href="#Alquiler_equipos">Alquiler de equipos</a> 
                       <ul class="submenu2"> 
-                        <li><a href="#sonido">Sonido</a>
-                          <ul class="submenu2">
+                        <li><a href="Producto_sonido.php">Sonido</a>
+                          <!-- <ul class="submenu2">
                             <li>
                               <a href="#Cabinas_sonido">Cabinas de sonido</a>
                               <ul class="submenu3">
@@ -55,12 +54,12 @@ require_once 'inactividad.php';
                             </li>
                             <li><a href="#Microfonos">Microfonos</a></li>
                             <li><a href="#Consolas">Consolas</a></li>
-                          </ul>
+                          </ul> -->
                         </li>
-                        <li><a href="#Proyectores">Proyectores</a></li>
+                        <li><a href="Producto_proyectores.php">Proyectores</a></li>
                       </ul>
                     </li>
-                    <li><a href="#Venta_equipos_Audiovisuales">Venta de equipos Audiovisuales</a>
+                    <!-- <li><a href="#Venta_equipos_Audiovisuales">Venta de equipos Audiovisuales</a>
                       <ul class="submenu2">
                         <li>
                           <a href="#Equipos_nuevos">Equipos nuevos</a>
@@ -77,18 +76,26 @@ require_once 'inactividad.php';
                           </ul>
                         </li>
                       </ul>
-                    </li>
+                    </li> -->
                   </ul>
                 </li>
                 </li>
                 
-                <li><a href="#Cotizacion">Cotización</a></li>
-                
+                <!-- <li><a href="#Cotizacion">Cotización</a></li> -->
+                <a href="../cerrar_sesion.php">cerrar sesion</a>
+                <h2>
+                  <strong>
+                    <?php 
+                      session_start();
+                      echo  $_SESSION["usuarios"] ;
+                    ?>
+                </strong>
+              </h2> 
               </ul>
             </nav>
           </header>
 
-          <script src="guardar.php"></script>
+          <script src="../guardar.php"></script>
         
     </body>
 

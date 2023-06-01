@@ -3,6 +3,6 @@ session_start();
 unset($_SESSION["usuarios"]);
 echo '
         <script>
-             window.location = "../soni/index.php";
+             window.location = "views/indexReg.php";
         </script>';
 ?>
